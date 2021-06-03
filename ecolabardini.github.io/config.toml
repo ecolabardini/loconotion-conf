@@ -1,0 +1,39 @@
+## Loconotion Site Configuration File ##
+
+# name of the folder that the site will be generated in
+name = "ecolabardini.github.io"
+
+# the notion.so page to being parsing from. This page will become the index.html
+# of the generated site, and loconotion will parse all sub-pages present on the page
+page = "https://www.notion.so/ecolabardini/Blog-b13dbf97b6b149b9a3e8f760794e42d8"
+
+## Global Site Settings ##
+[site]
+
+  [[site.meta]]
+  name = "Eduardo Colabardini"
+  content = "Eduardo Colabardini's blog, articles, notes, contacts and so on!"
+  [[site.meta]]
+  name = "Eduardo Colabardini"
+  content = "Eduardo Colabardini's blog, articles, notes, contacts and so on!"
+
+  [site.fonts]
+  site = 'Nunito'
+  navbar = ''
+  title = 'Montserrat'
+  h1 = 'Montserrat'
+  h2 = 'Montserrat'
+  h3 = 'Montserrat'
+  body = ''
+  code = ''
+
+  ## Custom Element Injection ##
+  [[site.inject.head.link]]
+  rel="icon" 
+  sizes="16x16"
+  type="image/png"
+  href="/ecolabardini.github.io/favicon-16x16.png"
+  
+  [[site.inject.head.script]]
+  type="text/javascript"
+  src="/ecolabardini.github.io/google_analytics.js"
